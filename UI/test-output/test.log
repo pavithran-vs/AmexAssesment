@@ -1,0 +1,4 @@
+2025-05-01 22:24:31,822 [main] INFO  utility.Log - Test Started: testNegative
+2025-05-01 22:25:04,339 [main] INFO  utility.Log - Test Passed: testNegative
+2025-05-01 22:25:04,569 [main] INFO  utility.Log - Test Started: testPositive
+2025-05-01 22:25:40,057 [main] INFO  utility.Log - Test Passed: testPositive

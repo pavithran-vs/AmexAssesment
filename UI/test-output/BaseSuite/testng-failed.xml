@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BaseSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="AmexTest(failed)">
+    <groups>
+      <run>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="amex.UI.TestA">
+        <methods>
+          <include name="testNegative"/>
+          <include name="testPositive"/>
+        </methods>
+      </class> <!-- amex.UI.TestA -->
+    </classes>
+  </test> <!-- AmexTest(failed) -->
+</suite> <!-- Failed suite [BaseSuite] -->
